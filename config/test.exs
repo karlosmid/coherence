@@ -36,3 +36,4 @@ config :coherence,
   password_reset_permitted_attributes: ["reset_password_token","password","password_confirmation"],
   session_permitted_attributes: ["remember","email", "password"]
 
+config :comeonin, :bcrypt_log_rounds, 4
